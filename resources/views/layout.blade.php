@@ -7,17 +7,11 @@
 </head>
 <body class="h-screen flex flex-col justify-between bg-gray-100">
     <header class="bg-blue-700 p-3">
-      <div class=" flex justify-between gap-2"> 
-        <a href="/">
-          <img src="https://dev.anato.org/img/logo-anato-horizontal.png" alt="" class="w-36 bg-white rounded p-1">
-        </a>
 
-        @include('components.navbar')
-      </div>
         
+        @include('components.navbar')
     </header>
-    	
-    <main class="h-[100%] bg-gray-100 p-5">
+    <main class="h-[100%] bg-gray-100 p-5 overflow-auto">
     @yield('main')
     </main>
     <footer class="bg-blue-700 text-center text-white p-1">Prueba Tecnica Laravel <br>  ANATO© {{date('Y')}}</footer>

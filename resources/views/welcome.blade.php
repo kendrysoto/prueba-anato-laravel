@@ -4,6 +4,7 @@
     <h3 class="text-blue-700 text-xl font-semibold" >Prueba Técnica Laravel </h3>
     <div>
       <ul class="list list-disc list-inside">
+        <li>Realize un Fork de este Repositorio</li>
         <li>Complete la Vista Para la Visualización de datos </li>
         <li>Cree 10 registros de Agencias entre principales y sucursales </li>
         <li>Realice un formulario para la Edición de datos</li>
