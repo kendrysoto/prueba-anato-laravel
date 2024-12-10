@@ -13,9 +13,9 @@ return new class extends Migration
     {
         Schema::create('agencias', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
-            $table->integer('nit');
-            $table->string('type');
+            $table->string('nombre');
+            $table->string('nit');
+            $table->enum('tipo', ['principal', 'sucursal']);
             $table->timestamps();
         });
     }
